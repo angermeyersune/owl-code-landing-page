@@ -32,10 +32,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-8">
           <div className="flex items-center">
-            <div className="text-xl font-bold border-2 border-[#10162f] p-1 font-lexend">
-              <span className="text-[#10162f]">Lingo</span>
-              <span className="text-lingoowl-purple">Owl</span>
-            </div>
+            <img 
+              src="/lovable-uploads/7ecf3566-867b-4f74-8e1c-f4e59348a6c1.png" 
+              alt="LingoOwl Logo" 
+              className="h-8 md:h-10"
+            />
           </div>
           
           <div className="hidden md:flex items-center gap-6">

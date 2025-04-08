@@ -8,9 +8,12 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <div className="text-xl font-bold border-2 border-[#FFFAE5] p-1 inline-block mb-4">
-              <span className="text-[#FFFAE5]">Lingo</span>
-              <span className="text-lingoowl-gold">Owl</span>
+            <div className="mb-4">
+              <img 
+                src="/lovable-uploads/7ecf3566-867b-4f74-8e1c-f4e59348a6c1.png" 
+                alt="LingoOwl Logo" 
+                className="h-10 brightness-200 contrast-75"
+              />
             </div>
             <p className="text-gray-400 mb-4">
               Professional translation services that save you 30-40% without compromising quality.
