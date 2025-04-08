@@ -32,27 +32,27 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-8">
           <div className="flex items-center">
-            <div className="text-xl font-bold border-2 border-black p-1">
+            <div className="text-xl font-bold border-2 border-black p-1 font-lexend">
               <span className="text-black">Lingo</span>
               <span className="text-lingoowl-purple">Owl</span>
             </div>
           </div>
           
           <div className="hidden md:flex items-center gap-6">
-            <a href="#features" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple">Why LingoOwl</a>
-            <a href="#process" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple">How It Works</a>
-            <a href="#testimonials" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple">Testimonials</a>
-            <a href="#faq" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple">FAQ</a>
-            <a href="#" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple">Enterprise</a>
-            <a href="#" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple">Pricing</a>
+            <a href="#features" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">Why LingoOwl</a>
+            <a href="#process" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">How It Works</a>
+            <a href="#testimonials" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">Testimonials</a>
+            <a href="#faq" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">FAQ</a>
+            <a href="#" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">Enterprise</a>
+            <a href="#" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">Pricing</a>
           </div>
         </div>
         
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="ghost" className="text-gray-700">
+          <Button variant="ghost" className="text-gray-700 font-lexend">
             Log in
           </Button>
-          <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white">
+          <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white font-lexend">
             Get started
           </Button>
         </div>
@@ -68,17 +68,17 @@ const Navbar = () => {
       {mobileMenuOpen && (
         <div className={`md:hidden absolute left-0 right-0 top-16 p-4 shadow-md z-20 ${scrolled ? 'bg-white' : 'bg-[#FFFAE5]'}`}>
           <div className="flex flex-col gap-4">
-            <a href="#features" className="text-gray-600 py-2 border-b border-gray-100">Why LingoOwl</a>
-            <a href="#process" className="text-gray-600 py-2 border-b border-gray-100">How It Works</a>
-            <a href="#testimonials" className="text-gray-600 py-2 border-b border-gray-100">Testimonials</a>
-            <a href="#faq" className="text-gray-600 py-2 border-b border-gray-100">FAQ</a>
-            <a href="#" className="text-gray-600 py-2 border-b border-gray-100">Enterprise</a>
-            <a href="#" className="text-gray-600 py-2 border-b border-gray-100">Pricing</a>
+            <a href="#features" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">Why LingoOwl</a>
+            <a href="#process" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">How It Works</a>
+            <a href="#testimonials" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">Testimonials</a>
+            <a href="#faq" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">FAQ</a>
+            <a href="#" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">Enterprise</a>
+            <a href="#" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">Pricing</a>
             <div className="flex flex-col gap-2 mt-4">
-              <Button variant="ghost" className="justify-center">
+              <Button variant="ghost" className="justify-center font-lexend">
                 Log in
               </Button>
-              <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary justify-center text-white">
+              <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary justify-center text-white font-lexend">
                 Get started
               </Button>
             </div>
