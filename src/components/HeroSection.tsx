@@ -46,7 +46,7 @@ const HeroSection = () => {
             />
             <Button 
               type="submit" 
-              className="h-12 px-6 bg-lingoowl-purple hover:bg-lingoowl-secondary whitespace-nowrap"
+              className="h-12 px-6 bg-lingoowl-purple hover:bg-lingoowl-secondary text-white whitespace-nowrap"
               disabled={isLoading}
             >
               {isLoading ? "Processing..." : "Get a quote"}

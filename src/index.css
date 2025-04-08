@@ -91,17 +91,22 @@
   }
 
   body {
-    @apply bg-background text-black;  /* Explicitly set text to black */
+    @apply bg-background text-black;
     font-family: 'Courier', monospace;
   }
   
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Inter', sans-serif;
-    @apply text-black;  /* Explicitly set headlines to black */
+    @apply text-black;
   }
   
   html {
     scroll-behavior: smooth;
+  }
+
+  /* Make text in purple backgrounds white */
+  .bg-lingoowl-purple *, .bg-indigo-600 * {
+    @apply text-white;
   }
 }
 

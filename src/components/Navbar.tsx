@@ -31,7 +31,7 @@ const Navbar = () => {
           <Button variant="ghost" className="text-gray-700">
             Log in
           </Button>
-          <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary">
+          <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white">
             Get started
           </Button>
         </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
               <Button variant="ghost" className="justify-center">
                 Log in
               </Button>
-              <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary justify-center">
+              <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary justify-center text-white">
                 Get started
               </Button>
             </div>

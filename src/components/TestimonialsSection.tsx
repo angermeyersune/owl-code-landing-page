@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
                   <p className="text-lg text-black">{testimonial.quote}</p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-lingoowl-purple text-[#FFFAE5] rounded-full flex items-center justify-center font-bold">
+                  <div className="w-12 h-12 bg-lingoowl-purple text-white rounded-full flex items-center justify-center font-bold">
                     {testimonial.avatar}
                   </div>
                   <div>

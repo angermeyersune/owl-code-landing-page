@@ -12,7 +12,7 @@ const CTASection = () => {
           Get an instant quote in less than 60 seconds.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-[#FFFAE5] px-8 py-6 text-lg h-auto">
+          <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white px-8 py-6 text-lg h-auto">
             Get a quote now
           </Button>
           <Button variant="outline" className="border-lingoowl-purple text-lingoowl-purple hover:bg-[#FFFAE5] px-8 py-6 text-lg h-auto">

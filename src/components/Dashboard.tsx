@@ -31,7 +31,7 @@ const Dashboard = () => {
                 Start practice session <span className="text-xs ml-2 text-black">0/1 today</span>
               </Button>
               
-              <Button className="bg-indigo-600 hover:bg-indigo-700 text-[#FFFAE5]">
+              <Button className="bg-indigo-600 hover:bg-indigo-700 text-white">
                 Resume <ArrowRight className="h-4 w-4 ml-2" />
               </Button>
             </div>
