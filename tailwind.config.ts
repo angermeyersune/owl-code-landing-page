@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -56,12 +55,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// LingoOwl custom colors
 				lingoowl: {
 					purple: '#6723ec',
 					secondary: '#7E69AB',
 					gold: '#FEC6A1',
-					light: '#F1F0FB',
+					light: '#FFFAE5',
 					dark: '#352F44',
 				},
 				sidebar: {
