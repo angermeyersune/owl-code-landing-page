@@ -39,20 +39,20 @@ const Navbar = () => {
           </div>
           
           <div className="hidden md:flex items-center gap-6">
-            <a href="#features" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">Why LingoOwl</a>
-            <a href="#process" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">How It Works</a>
-            <a href="#testimonials" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">Testimonials</a>
-            <a href="#faq" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">FAQ</a>
-            <a href="#" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">Enterprise</a>
-            <a href="#" className="text-sm font-medium text-gray-700 hover:text-lingoowl-purple font-lexend">Pricing</a>
+            <a href="#features" className="text-sm font-bold text-gray-700 hover:text-lingoowl-purple font-lexend">Why LingoOwl</a>
+            <a href="#process" className="text-sm font-bold text-gray-700 hover:text-lingoowl-purple font-lexend">How It Works</a>
+            <a href="#testimonials" className="text-sm font-bold text-gray-700 hover:text-lingoowl-purple font-lexend">Testimonials</a>
+            <a href="#faq" className="text-sm font-bold text-gray-700 hover:text-lingoowl-purple font-lexend">FAQ</a>
+            <a href="#" className="text-sm font-bold text-gray-700 hover:text-lingoowl-purple font-lexend">Enterprise</a>
+            <a href="#" className="text-sm font-bold text-gray-700 hover:text-lingoowl-purple font-lexend">Pricing</a>
           </div>
         </div>
         
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="ghost" className="text-gray-700 font-lexend">
+          <Button variant="ghost" className="text-gray-700 font-lexend font-bold">
             Log in
           </Button>
-          <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white font-lexend">
+          <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white font-lexend font-bold">
             Get started
           </Button>
         </div>
@@ -68,17 +68,17 @@ const Navbar = () => {
       {mobileMenuOpen && (
         <div className={`md:hidden absolute left-0 right-0 top-16 p-4 shadow-md z-20 ${scrolled ? 'bg-white' : 'bg-[#FFFAE5]'}`}>
           <div className="flex flex-col gap-4">
-            <a href="#features" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">Why LingoOwl</a>
-            <a href="#process" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">How It Works</a>
-            <a href="#testimonials" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">Testimonials</a>
-            <a href="#faq" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">FAQ</a>
-            <a href="#" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">Enterprise</a>
-            <a href="#" className="text-gray-600 py-2 border-b border-gray-100 font-lexend">Pricing</a>
+            <a href="#features" className="text-gray-600 py-2 border-b border-gray-100 font-lexend font-bold">Why LingoOwl</a>
+            <a href="#process" className="text-gray-600 py-2 border-b border-gray-100 font-lexend font-bold">How It Works</a>
+            <a href="#testimonials" className="text-gray-600 py-2 border-b border-gray-100 font-lexend font-bold">Testimonials</a>
+            <a href="#faq" className="text-gray-600 py-2 border-b border-gray-100 font-lexend font-bold">FAQ</a>
+            <a href="#" className="text-gray-600 py-2 border-b border-gray-100 font-lexend font-bold">Enterprise</a>
+            <a href="#" className="text-gray-600 py-2 border-b border-gray-100 font-lexend font-bold">Pricing</a>
             <div className="flex flex-col gap-2 mt-4">
-              <Button variant="ghost" className="justify-center font-lexend">
+              <Button variant="ghost" className="justify-center font-lexend font-bold">
                 Log in
               </Button>
-              <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary justify-center text-white font-lexend">
+              <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary justify-center text-white font-lexend font-bold">
                 Get started
               </Button>
             </div>
