@@ -49,10 +49,10 @@ const Navbar = () => {
         </div>
         
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="outline" className="text-gray-700 font-lexend font-bold border-2 border-black h-10">
+          <Button variant="outline" className="text-gray-700 font-lexend font-bold border-2 border-black h-10 w-[120px]">
             Log in
           </Button>
-          <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white font-lexend font-bold">
+          <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white font-lexend font-bold w-[120px]">
             Get started
           </Button>
         </div>
