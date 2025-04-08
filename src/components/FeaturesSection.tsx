@@ -32,7 +32,7 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section id="features" className="py-16 md:py-24 bg-gray-50">
+    <section id="features" className="py-16 md:py-24 bg-lingoowl-light">
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Why choose LingoOwl?</h2>
@@ -45,11 +45,11 @@ const FeaturesSection = () => {
           {features.map((feature, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <div className="bg-[#FFFAE5] p-4 rounded-full mb-6 shadow-sm">
-                <feature.icon className="h-8 w-8 text-lingoowl-purple" />
+                <feature.icon className="h-8 w-8 text-black" />
               </div>
               <h3 className="text-xl font-bold mb-4">{feature.title}</h3>
               <p className="text-black mb-6">{feature.description}</p>
-              <Button variant="outline" className="border-lingoowl-purple text-lingoowl-purple hover:bg-lingoowl-light">
+              <Button variant="outline" className="border-lingoowl-purple text-black hover:bg-lingoowl-light">
                 {feature.action}
               </Button>
             </div>

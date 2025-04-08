@@ -15,7 +15,7 @@ const CTASection = () => {
           <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white px-8 py-6 text-lg h-auto">
             Get a quote now
           </Button>
-          <Button variant="outline" className="border-lingoowl-purple text-lingoowl-purple hover:bg-[#FFFAE5] px-8 py-6 text-lg h-auto">
+          <Button variant="outline" className="border-lingoowl-purple text-black hover:bg-[#FFFAE5] px-8 py-6 text-lg h-auto">
             Contact sales
           </Button>
         </div>
