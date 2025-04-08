@@ -25,7 +25,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="bg-white py-20 md:py-32">
+    <section className="bg-[#FFFAE5] py-20 md:py-32">
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto space-y-8">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900">

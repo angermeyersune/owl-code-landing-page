@@ -25,7 +25,7 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section id="testimonials" className="py-16 md:py-24 bg-white">
+    <section id="testimonials" className="py-16 md:py-24 bg-[#FFFAE5]">
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="text-center mb-16">
           <span className="inline-block bg-lingoowl-light text-lingoowl-purple font-medium px-4 py-2 rounded-full text-sm mb-4">
@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
                   <p className="text-lg text-gray-700">{testimonial.quote}</p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-lingoowl-purple text-white rounded-full flex items-center justify-center font-bold">
+                  <div className="w-12 h-12 bg-lingoowl-purple text-[#FFFAE5] rounded-full flex items-center justify-center font-bold">
                     {testimonial.avatar}
                   </div>
                   <div>
