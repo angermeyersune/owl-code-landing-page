@@ -20,6 +20,7 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
+				courier: ['Courier', 'monospace'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
