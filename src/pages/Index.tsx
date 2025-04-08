@@ -16,6 +16,13 @@ const Index = () => {
       <Navbar />
       <main className="flex-1 pt-16">
         <HeroSection />
+        <div className="py-12 bg-[#10162f] text-white">
+          <div className="max-w-4xl mx-auto px-4 md:px-10 text-center">
+            <p className="text-xl md:text-2xl leading-relaxed">
+              Combining technology and human expertise to deliver high-quality translations without compromising on service. Launch any project in under 60 seconds.
+            </p>
+          </div>
+        </div>
         <DottedSeparator />
         <FeaturesSection />
         <DottedSeparator />
