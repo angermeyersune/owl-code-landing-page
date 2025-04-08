@@ -28,10 +28,10 @@ const HeroSection = () => {
     <section className="bg-[#FFFAE5] py-20 md:py-32">
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto space-y-8">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-black">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#10162f]">
             Run your translation projects on autopilot
           </h1>
-          <p className="text-xl text-black max-w-2xl">
+          <p className="text-xl text-[#10162f] max-w-2xl">
             Combining technology and human expertise to deliver high-quality translations without compromising on service. Launch any project in under 60 seconds.
           </p>
           
@@ -53,7 +53,7 @@ const HeroSection = () => {
             </Button>
           </form>
           
-          <p className="text-sm text-black">
+          <p className="text-sm text-[#10162f]">
             Get an instant quote before accepting any project
           </p>
         </div>

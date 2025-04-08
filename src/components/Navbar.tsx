@@ -32,8 +32,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-8">
           <div className="flex items-center">
-            <div className="text-xl font-bold border-2 border-black p-1 font-lexend">
-              <span className="text-black">Lingo</span>
+            <div className="text-xl font-bold border-2 border-[#10162f] p-1 font-lexend">
+              <span className="text-[#10162f]">Lingo</span>
               <span className="text-lingoowl-purple">Owl</span>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-4">
           <Button 
             variant="outline" 
-            className={`text-gray-700 font-lexend font-bold border-2 border-black h-10 w-[120px] transition-all duration-300 
+            className={`text-gray-700 font-lexend font-bold border-2 border-[#10162f] h-10 w-[120px] transition-all duration-300 
               ${scrolled ? 'bg-white' : 'bg-transparent'}`}
           >
             Log in
@@ -81,7 +81,7 @@ const Navbar = () => {
             <div className="flex flex-col gap-2 mt-4">
               <Button 
                 variant="outline" 
-                className={`justify-center font-lexend font-bold border-2 border-black transition-all duration-300
+                className={`justify-center font-lexend font-bold border-2 border-[#10162f] transition-all duration-300
                   ${scrolled ? 'bg-white' : 'bg-transparent'}`}
               >
                 Log in

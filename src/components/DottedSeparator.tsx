@@ -12,7 +12,7 @@ const DottedSeparator: React.FC<DottedSeparatorProps> = ({ className = "" }) => 
         {Array.from({ length: 150 }).map((_, index) => (
           <div 
             key={index} 
-            className="w-0.5 h-0.5 rounded-full bg-black"
+            className="w-0.5 h-0.5 rounded-full bg-[#10162f]"
           />
         ))}
       </div>

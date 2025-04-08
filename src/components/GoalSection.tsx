@@ -12,7 +12,7 @@ const GoalSection = () => {
         </button>
       </div>
       
-      <p className="text-black">Change my career</p>
+      <p className="text-[#10162f]">Change my career</p>
       
       <div className="mt-8">
         <a href="#" className="text-sm text-lingoowl-purple flex items-center">

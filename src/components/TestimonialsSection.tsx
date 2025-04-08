@@ -32,7 +32,7 @@ const TestimonialsSection = () => {
             Success Stories
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">From Our Community</h2>
-          <p className="text-xl text-black max-w-2xl mx-auto">
+          <p className="text-xl text-[#10162f] max-w-2xl mx-auto">
             See what our subscribers have achieved with consistent practice and expert guidance.
           </p>
         </div>
@@ -43,15 +43,15 @@ const TestimonialsSection = () => {
               <div className="flex flex-col h-full">
                 <div className="text-lingoowl-purple text-4xl font-serif mb-4">"</div>
                 <div className="mb-6 flex-grow">
-                  <p className="text-lg text-black">{testimonial.quote}</p>
+                  <p className="text-lg text-[#10162f]">{testimonial.quote}</p>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-lingoowl-purple text-white rounded-full flex items-center justify-center font-bold">
                     {testimonial.avatar}
                   </div>
                   <div>
-                    <div className="font-medium text-black">{testimonial.name}</div>
-                    <div className="text-sm text-black">{testimonial.role}</div>
+                    <div className="font-medium text-[#10162f]">{testimonial.name}</div>
+                    <div className="text-sm text-[#10162f]">{testimonial.role}</div>
                   </div>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const TestimonialsSection = () => {
             <span className="text-2xl">★</span>
             <span className="text-2xl">★</span>
           </div>
-          <p className="text-lg font-medium mt-2 text-black">4.9/5 average rating from 2,300+ subscribers</p>
+          <p className="text-lg font-medium mt-2 text-[#10162f]">4.9/5 average rating from 2,300+ subscribers</p>
         </div>
       </div>
     </section>

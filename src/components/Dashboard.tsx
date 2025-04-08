@@ -18,17 +18,17 @@ const Dashboard = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12">
           <div className="lg:col-span-7 p-6 border-r border-gray-200">
             <div className="mb-4">
-              <span className="text-xs text-black uppercase font-medium">Course</span>
+              <span className="text-xs text-[#10162f] uppercase font-medium">Course</span>
               <h2 className="text-xl font-bold flex items-center justify-between">
                 Learn Translation Basics
                 <ChevronRight className="h-5 w-5" />
               </h2>
-              <p className="text-black text-sm">Current Module: Introduction</p>
+              <p className="text-[#10162f] text-sm">Current Module: Introduction</p>
             </div>
             
             <div className="mt-8 flex items-center justify-between">
               <Button variant="outline" className="text-sm">
-                Start practice session <span className="text-xs ml-2 text-black">0/1 today</span>
+                Start practice session <span className="text-xs ml-2 text-[#10162f]">0/1 today</span>
               </Button>
               
               <Button className="bg-indigo-600 hover:bg-indigo-700 text-white">
@@ -39,7 +39,7 @@ const Dashboard = () => {
           
           <div className="lg:col-span-5 p-6 bg-gray-50">
             <h3 className="font-medium mb-2">Make a study plan</h3>
-            <p className="text-sm text-black mb-4">
+            <p className="text-sm text-[#10162f] mb-4">
               Build a learning rhythm that fits your schedule.
             </p>
             
