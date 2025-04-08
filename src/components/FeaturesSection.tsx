@@ -1,7 +1,7 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 
+// We'll keep this file but it won't be used in the new dashboard design
 const features = [
   {
     title: "Lower your costs by 30-50%",
