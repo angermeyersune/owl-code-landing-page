@@ -9,28 +9,28 @@ import {
 
 const faqs = [
   {
-    question: "How often will I receive the newsletter?",
-    answer: "You'll receive our newsletter once a week, typically every Monday morning, so you can start your week with fresh language learning content."
+    question: "How much can I save on translation costs?",
+    answer: "Most clients save between 30-50% compared to traditional translation services, without compromising on quality. Our automation helps reduce overhead costs while maintaining high standards."
   },
   {
-    question: "Is the newsletter free?",
-    answer: "Yes, the LingoOwl newsletter is completely free. We may occasionally offer premium resources or courses, but the weekly newsletter itself will always be free."
+    question: "What languages do you support?",
+    answer: "We support over 100 languages for professional translation services, covering all major global languages and many regional dialects."
   },
   {
-    question: "What languages do you cover?",
-    answer: "Our newsletter primarily focuses on the most popular languages: Spanish, French, German, Italian, Chinese, Japanese, and English. However, we regularly include tips that apply to all language learning."
+    question: "How does the platform ensure quality?",
+    answer: "Our platform combines advanced automation with human expertise. All translations go through a multi-step quality assurance process including specialist review and automated quality checks."
   },
   {
-    question: "I'm a complete beginner. Will this be too advanced for me?",
-    answer: "Not at all! We design our content to be useful for all levels. We clearly mark content by level (beginner, intermediate, advanced) so you can focus on what's most relevant to you."
+    question: "How fast can I get my translations?",
+    answer: "Turnaround times depend on content volume and language pairs, but our platform typically delivers translations 40% faster than traditional services thanks to our efficient workflow."
   },
   {
-    question: "Can I unsubscribe if I change my mind?",
-    answer: "Absolutely. Every newsletter includes a simple one-click unsubscribe link at the bottom. We make it easy to leave, though we hope you won't want to!"
+    question: "Can I choose specific translators for my projects?",
+    answer: "Yes, you can build your own team of preferred translators or let our system automatically match you with the best specialists for your specific content and industry."
   },
   {
-    question: "How is this different from language learning apps?",
-    answer: "While apps are great for practice, our newsletter provides deeper insights, expert strategies, and cultural context that most apps miss. It's designed to complement any app or course you're already using."
+    question: "Is my content secure on your platform?",
+    answer: "Absolutely. We use enterprise-grade encryption and strict access controls. All translators sign NDAs, and we're compliant with major security standards including GDPR."
   }
 ];
 
@@ -44,7 +44,7 @@ const FAQSection = () => {
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Everything you need to know about the LingoOwl newsletter.
+            Everything you need to know about our translation services.
           </p>
         </div>
         
