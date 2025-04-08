@@ -4,19 +4,19 @@ import { Card } from "@/components/ui/card";
 
 const testimonials = [
   {
-    quote: "The weekly vocabulary challenges have expanded my French vocabulary by at least 200 words in just two months. Incredibly effective!",
+    quote: "I've tried learning Spanish for years with little progress. After just 3 months of LingoOwl's newsletters, I'm now having basic conversations with native speakers!",
     name: "David K.",
     role: "French Learner",
     avatar: "DK"
   },
   {
-    quote: "As a busy professional, I love how LingoOwl delivers bite-sized language lessons I can practice during my commute. It's perfect!",
+    quote: "The bite-sized format is perfect for my busy schedule. I complete the exercises during my commute and have learned more Japanese in 6 months than I did in 2 years of classes.",
     name: "Sarah M.",
     role: "Japanese Enthusiast",
     avatar: "SM"
   },
   {
-    quote: "The cultural insights in each newsletter help me understand not just the language, but also how to communicate authentically with native speakers.",
+    quote: "The cultural insights in each newsletter have completely transformed how I understand German expressions. Now I sound like a local instead of a textbook.",
     name: "James R.",
     role: "German Student",
     avatar: "JR"
@@ -25,21 +25,25 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section id="testimonials" className="py-16 md:py-24 bg-lingoowl-light">
+    <section id="testimonials" className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Subscribers Say</h2>
+          <span className="inline-block bg-lingoowl-light text-lingoowl-purple font-medium px-4 py-2 rounded-full text-sm mb-4">
+            Success Stories
+          </span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">From Our Community</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Join thousands of satisfied language learners who have accelerated their progress with our newsletter.
+            See what our subscribers have achieved with consistent practice and expert guidance.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="p-6 hover:shadow-lg transition-all">
+            <Card key={index} className="p-8 hover:shadow-lg transition-all border-0 shadow">
               <div className="flex flex-col h-full">
+                <div className="text-lingoowl-purple text-4xl font-serif mb-4">"</div>
                 <div className="mb-6 flex-grow">
-                  <p className="text-lg text-gray-700 italic">"{testimonial.quote}"</p>
+                  <p className="text-lg text-gray-700">{testimonial.quote}</p>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-lingoowl-purple text-white rounded-full flex items-center justify-center font-bold">
@@ -53,6 +57,17 @@ const TestimonialsSection = () => {
               </div>
             </Card>
           ))}
+        </div>
+        
+        <div className="mt-16 text-center">
+          <div className="inline-flex items-center gap-2 text-lingoowl-purple font-medium">
+            <span className="text-2xl">★</span>
+            <span className="text-2xl">★</span>
+            <span className="text-2xl">★</span>
+            <span className="text-2xl">★</span>
+            <span className="text-2xl">★</span>
+          </div>
+          <p className="text-lg font-medium mt-2">4.9/5 average rating from 2,300+ subscribers</p>
         </div>
       </div>
     </section>
