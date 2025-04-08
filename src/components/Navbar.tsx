@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
         
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="ghost" className="text-gray-700 font-lexend font-bold">
+          <Button variant="outline" className="text-gray-700 font-lexend font-bold border-2 border-black h-10">
             Log in
           </Button>
           <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white font-lexend font-bold">
@@ -75,7 +75,7 @@ const Navbar = () => {
             <a href="#" className="text-gray-600 py-2 border-b border-gray-100 font-lexend font-bold">Enterprise</a>
             <a href="#" className="text-gray-600 py-2 border-b border-gray-100 font-lexend font-bold">Pricing</a>
             <div className="flex flex-col gap-2 mt-4">
-              <Button variant="ghost" className="justify-center font-lexend font-bold">
+              <Button variant="outline" className="justify-center font-lexend font-bold border-2 border-black">
                 Log in
               </Button>
               <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary justify-center text-white font-lexend font-bold">
