@@ -8,13 +8,14 @@ interface DottedSeparatorProps {
 const DottedSeparator: React.FC<DottedSeparatorProps> = ({ className = "" }) => {
   return (
     <div className={`flex justify-center my-8 ${className}`}>
-      <div className="w-1/2 h-[2px] bg-transparent" 
-        style={{ 
-          backgroundImage: 'linear-gradient(to right, #000 50%, transparent 50%)',
-          backgroundSize: '16px 2px',
-          backgroundRepeat: 'repeat-x'
-        }} 
-      />
+      <div className="flex items-center justify-center gap-4 w-1/2">
+        {Array.from({ length: 10 }).map((_, index) => (
+          <div 
+            key={index} 
+            className="w-2 h-2 rounded-full bg-black"
+          />
+        ))}
+      </div>
     </div>
   );
 };
