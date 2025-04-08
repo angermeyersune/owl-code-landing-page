@@ -52,7 +52,7 @@ const Navbar = () => {
           <Button 
             variant="outline" 
             className={`text-gray-700 font-lexend font-bold border-2 border-black h-10 w-[120px] transition-all duration-300 
-              ${scrolled ? 'bg-lingoowl-light' : 'bg-transparent'}`}
+              ${scrolled ? 'bg-white' : 'bg-transparent'}`}
           >
             Log in
           </Button>
@@ -82,7 +82,7 @@ const Navbar = () => {
               <Button 
                 variant="outline" 
                 className={`justify-center font-lexend font-bold border-2 border-black transition-all duration-300
-                  ${scrolled ? 'bg-lingoowl-light' : 'bg-transparent'}`}
+                  ${scrolled ? 'bg-white' : 'bg-transparent'}`}
               >
                 Log in
               </Button>
