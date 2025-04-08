@@ -54,9 +54,6 @@ const ProcessSection = () => {
                   </div>
                 )}
               </div>
-              <div className="absolute top-0 left-0 -ml-4 mt-6 text-5xl font-bold text-gray-100 z-0">
-                {index + 1}
-              </div>
             </div>
           ))}
         </div>
