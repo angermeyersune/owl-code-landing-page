@@ -49,7 +49,11 @@ const Navbar = () => {
         </div>
         
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="outline" className="text-gray-700 font-lexend font-bold border-2 border-black h-10 w-[120px]">
+          <Button 
+            variant="outline" 
+            className={`text-gray-700 font-lexend font-bold border-2 border-black h-10 w-[120px] transition-all duration-300 
+              ${scrolled ? 'bg-lingoowl-light' : 'bg-transparent'}`}
+          >
             Log in
           </Button>
           <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary text-white font-lexend font-bold w-[120px]">
@@ -75,7 +79,11 @@ const Navbar = () => {
             <a href="#" className="text-gray-600 py-2 border-b border-gray-100 font-lexend font-bold">Enterprise</a>
             <a href="#" className="text-gray-600 py-2 border-b border-gray-100 font-lexend font-bold">Pricing</a>
             <div className="flex flex-col gap-2 mt-4">
-              <Button variant="outline" className="justify-center font-lexend font-bold border-2 border-black">
+              <Button 
+                variant="outline" 
+                className={`justify-center font-lexend font-bold border-2 border-black transition-all duration-300
+                  ${scrolled ? 'bg-lingoowl-light' : 'bg-transparent'}`}
+              >
                 Log in
               </Button>
               <Button className="bg-lingoowl-purple hover:bg-lingoowl-secondary justify-center text-white font-lexend font-bold">
