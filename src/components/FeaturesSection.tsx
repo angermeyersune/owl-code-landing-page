@@ -36,7 +36,7 @@ const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Why choose LingoOwl?</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-black max-w-3xl mx-auto">
             We combine technology and human expertise to deliver translations that are more affordable, flexible, and high-quality.
           </p>
         </div>
@@ -44,11 +44,11 @@ const FeaturesSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {features.map((feature, index) => (
             <div key={index} className="flex flex-col items-center text-center">
-              <div className="bg-white p-4 rounded-full mb-6 shadow-sm">
+              <div className="bg-[#FFFAE5] p-4 rounded-full mb-6 shadow-sm">
                 <feature.icon className="h-8 w-8 text-lingoowl-purple" />
               </div>
               <h3 className="text-xl font-bold mb-4">{feature.title}</h3>
-              <p className="text-gray-600 mb-6">{feature.description}</p>
+              <p className="text-black mb-6">{feature.description}</p>
               <Button variant="outline" className="border-lingoowl-purple text-lingoowl-purple hover:bg-lingoowl-light">
                 {feature.action}
               </Button>

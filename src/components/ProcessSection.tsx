@@ -31,7 +31,7 @@ const ProcessSection = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">How LingoOwl works</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-black max-w-3xl mx-auto">
             Our streamlined process combines technology and human expertise to deliver high-quality translations quickly and cost-effectively.
           </p>
         </div>
@@ -45,7 +45,7 @@ const ProcessSection = () => {
                 </div>
                 <div className="relative z-10">
                   <h3 className="text-xl font-bold mb-4">{step.title}</h3>
-                  <p className="text-gray-600">{step.description}</p>
+                  <p className="text-black">{step.description}</p>
                 </div>
                 
                 {index < steps.length - 1 && (
