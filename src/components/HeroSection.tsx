@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -25,10 +24,10 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="bg-[#FFFAE5] py-20 md:py-32 overflow-hidden">
+    <section className="bg-[#FFFAE5] py-20 md:py-32 overflow-hidden relative z-10">
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-          <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-1/2 space-y-8">
+          <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-1/2 space-y-8 z-20">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#10162f]">
               Run your translation projects on autopilot
             </h1>
@@ -59,7 +58,7 @@ const HeroSection = () => {
             </p>
           </div>
           
-          <div className="md:w-1/2 flex justify-center md:justify-end relative">
+          <div className="md:w-1/2 flex justify-center md:justify-end relative z-0">
             <div className="relative">
               <div className="absolute -top-16 -left-16 w-32 h-32 bg-lingoowl-gold opacity-30 rounded-full blur-2xl animate-pulse"></div>
               <div className="absolute -bottom-8 -right-8 w-24 h-24 bg-lingoowl-purple opacity-20 rounded-full blur-xl"></div>
