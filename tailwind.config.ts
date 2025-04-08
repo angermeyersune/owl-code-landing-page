@@ -58,7 +58,7 @@ export default {
 				},
 				// LingoOwl custom colors
 				lingoowl: {
-					purple: '#8B5CF6',
+					purple: '#6723ec',
 					secondary: '#7E69AB',
 					gold: '#FEC6A1',
 					light: '#F1F0FB',
